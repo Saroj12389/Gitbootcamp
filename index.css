@@ -41,13 +41,13 @@ nav .menu ul li a{
 }
 
 section {
-    margin: auto;
-    background: rgb(205, 183, 183);
-    padding: 20px;
+    margin:auto;
+    background: #cdb7b7;
     display: flex;
     justify-content: space-between;
     font-family: oswald;
     font-size: larger;
+    padding: 50px 20px;
 
 }
 h1 {
@@ -76,4 +76,24 @@ p {
     font-family: inter;
 }
 
+.gallery{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+.gallery .images{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px; 
+    padding: 50px 50px;
+}
+.gallery .images .image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery .images .image-container img{
+    width: 800px;
+    height: 600px;
+}
