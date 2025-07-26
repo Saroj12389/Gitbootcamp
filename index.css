@@ -32,4 +32,6 @@ nav .logo{
 nav .menu ul li a{
     color: white;
     text-decoration: none;
+    font-family: oswald;
+    font-size: x-large;
 }
