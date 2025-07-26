@@ -4,9 +4,14 @@ body{
 }
 
 header{
-    background-color: black;
+    background-color: black;   
+}
+
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
